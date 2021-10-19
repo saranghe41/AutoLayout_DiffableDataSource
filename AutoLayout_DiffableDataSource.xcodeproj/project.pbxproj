@@ -14,6 +14,8 @@
 		5A5C4AFD27102CE300566BE9 /* AutoLayout_DiffableDataSource.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5A5C4AFB27102CE300566BE9 /* AutoLayout_DiffableDataSource.xcdatamodeld */; };
 		5A5C4AFF27102CE400566BE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A5C4AFE27102CE400566BE9 /* Assets.xcassets */; };
 		5A5C4B0227102CE400566BE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A5C4B0027102CE400566BE9 /* LaunchScreen.storyboard */; };
+		5A5C4B0A27102DF800566BE9 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5C4B0927102DF800566BE9 /* MyTableViewCell.swift */; };
+		5A5C4B0C27102E3E00566BE9 /* MyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A5C4B0B27102E3E00566BE9 /* MyTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		5A5C4AFE27102CE400566BE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A5C4B0127102CE400566BE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5A5C4B0327102CE400566BE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A5C4B0927102DF800566BE9 /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		5A5C4B0B27102E3E00566BE9 /* MyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				5A5C4B0027102CE400566BE9 /* LaunchScreen.storyboard */,
 				5A5C4B0327102CE400566BE9 /* Info.plist */,
 				5A5C4AFB27102CE300566BE9 /* AutoLayout_DiffableDataSource.xcdatamodeld */,
+				5A5C4B0927102DF800566BE9 /* MyTableViewCell.swift */,
+				5A5C4B0B27102E3E00566BE9 /* MyTableViewCell.xib */,
 			);
 			path = AutoLayout_DiffableDataSource;
 			sourceTree = "<group>";
@@ -129,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A5C4B0227102CE400566BE9 /* LaunchScreen.storyboard in Resources */,
+				5A5C4B0C27102E3E00566BE9 /* MyTableViewCell.xib in Resources */,
 				5A5C4AFF27102CE400566BE9 /* Assets.xcassets in Resources */,
 				5A5C4AFA27102CE300566BE9 /* Main.storyboard in Resources */,
 			);
@@ -144,6 +151,7 @@
 				5A5C4AFD27102CE300566BE9 /* AutoLayout_DiffableDataSource.xcdatamodeld in Sources */,
 				5A5C4AF727102CE300566BE9 /* ViewController.swift in Sources */,
 				5A5C4AF327102CE300566BE9 /* AppDelegate.swift in Sources */,
+				5A5C4B0A27102DF800566BE9 /* MyTableViewCell.swift in Sources */,
 				5A5C4AF527102CE300566BE9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
